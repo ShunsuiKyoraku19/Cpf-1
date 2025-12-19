@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(229, 255, 255);
+    padding: 20px;
+  }
+  
+  .card {
+    background: rgba(0, 255, 255, 0.1);
+    width: 320px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  }
+  
+  #btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    background: linear-gradient(135deg, #7eb3f8, #bdfdfd);
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.2s ease, background 0.3s ease;
+  }
+  
+  #btn:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, #a0d8d8, #e0ffff);
+  }
+  
+  input[name="cpf"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #7eb3f8;
+    width: 80%;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
