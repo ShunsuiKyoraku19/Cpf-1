@@ -48,7 +48,7 @@
     background: linear-gradient(135deg, #a0d8d8, #e0ffff);
   }
   
-  input[name="cpf"] {
+  input[id="cpf"] {
     display: block;
     margin: 15px auto;
     padding: 10px;
@@ -58,4 +58,5 @@
     font-size: 1rem;
     text-align: center;
   }
+
   
