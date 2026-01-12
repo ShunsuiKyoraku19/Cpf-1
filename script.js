@@ -1,4 +1,4 @@
-let cpf = document.getElementsByName("cpf");
+let cpf = document.getElementById("cpf");
 let botao = document.getElementById("btn");
 let mensagem = document.getElementById("mensagem");
 
@@ -53,4 +53,5 @@ botao.addEventListener("click", ()=>{
         mensagem.textContent = "CPF INVÁLIDO!";
         mensagem.style.color = "red";
     }
+
 });
